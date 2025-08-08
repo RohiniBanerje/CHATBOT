@@ -1,0 +1,13 @@
+prefix=C:/Users/baner/Chatbot_With_Ollama/venv/Library
+exec_prefix=C:/Users/baner/Chatbot_With_Ollama/venv/Library
+libdir=C:/Users/baner/Chatbot_With_Ollama/venv/Library/lib
+sharedlibdir=C:/Users/baner/Chatbot_With_Ollama/venv/Library/lib
+includedir=C:/Users/baner/Chatbot_With_Ollama/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
